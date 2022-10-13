@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
  ${reset}
  /* other styles */
  body {
- overflow-x: hidden;
+ 
  line-height: 1;
 
  font-family: -apple-system, BlinkMacSystemFont, «Segoe UI», «Roboto», «Oxygen»,

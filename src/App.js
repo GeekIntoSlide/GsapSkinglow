@@ -2,8 +2,8 @@ import logo from './assets/logo.svg';
 import Background from './Components/Background';
 import './App.css';
 import styled from 'styled-components';
-
 import Index from './Components/Index';
+import Content from './Components/Content';
 const Herodiv=styled.div`
 position:relative;
 
@@ -33,14 +33,18 @@ top:-80px
 `
 function App() {
   return (
+    <div>
     <HeroSection>
      <img src={logo} alt="img"/>
      
      <TitleSection>Glow your Skin </TitleSection>
      <Herodiv><Index/></Herodiv>
+     {/* <Content/> */}
      
      
     </HeroSection>
+    <Content/>
+    </div>
   );
 }
 
